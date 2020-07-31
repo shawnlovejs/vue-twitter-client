@@ -100,6 +100,7 @@
         <span>更多</span>
       </router-link>
     </nav>
+    <button class="tweet-button">推文</button>
   </div>
 </template>
 
@@ -148,5 +149,13 @@ nav {
   height: 1.75rem;
 }
 .tweet-button {
+  background-color: rgba(29, 161, 242, 1);
+  color: white;
+  width: 80%;
+  min-height: 59px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
 }
 </style>
